@@ -1,9 +1,8 @@
   version: 2.1
-  jobs: 
-    build: 
-      macos: 
+  jobs:
+    build:
+      macos:
         xcode: "10.0.0"
-    steps: 
+    steps:
       - checkout #
       - run: echo "the cake is a lie."
-        
