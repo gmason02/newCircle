@@ -1,6 +1,6 @@
   version: 2.1
   jobs:
-    build-macos: 
+    build: 
       macos:  
         xcode: "10.0.0"
     steps:
