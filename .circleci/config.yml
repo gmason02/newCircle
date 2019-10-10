@@ -3,6 +3,9 @@ jobs:
     build:
         docker:
             - {image: 'circleci/node:4.8.2'}
+    build-android:
+        docker:
+            - {image: 'android:api-25-alpha'}
         steps:
             - checkout
             - {run: 'echo "The cake is a lie."'}
