@@ -1,0 +1,8 @@
+version: 2.1
+jobs: 
+  build-android: 
+    docker: 
+      - image: circleci/android:api-25-alpha
+    steps: 
+      - checkout
+      - run: echo "The cake is a lie"
