@@ -1,8 +1,8 @@
 version: 2.1
 jobs:
     build:
-        macos:
-            xcode: 10.0.0
+        docker:
+            - image: circleci/android:api-25-alpha
         steps:
             - checkout
-            - {run: 'echo "The cake is an apple."'}
+            - run: echo "The cake is an android."
